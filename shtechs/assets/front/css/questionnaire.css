@@ -1,0 +1,369 @@
+.logo-questionnaire-wrapper {
+    padding: 80px 0px;
+}
+.logo-questionnaire-wrap-text h2 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 25px;
+}
+.step-logos h2 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 25px;
+}
+.logo-questionnaire-wrap-text p {
+    font-size: 15px;
+    color: var(--grey);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.step-logos p {
+    font-size: 15px;
+    color: var(--grey);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.step2 h2>p {
+    color: #120f62;
+    font-size: 16px
+}
+
+.step2 .form-wrapper h6 {
+    font-size: 18px;
+    color: #291766;
+    font-weight: 500;
+    margin: 0 0 20px
+}
+
+.form-group.radiocheck>div label {
+    margin: 0 10px;
+    font-size: 12px
+}
+
+.step2 .form-group {
+    margin: 0 0 30px;
+    display:block;
+}
+
+.step2 .form-group label {
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 5px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.step2 .form-group .form-control {
+    height: 42px;
+    background: #f5f5f5;
+    border-color: #dbdbdb;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    outline: none !important;
+}
+
+.step2 .form-control:focus {
+    box-shadow: none;
+}
+
+.step2 .form-group textarea {
+    resize: none;
+    height: 200px !important;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+.step-logos figure {
+    position: relative;
+    transition: .5s all;
+    width: 88%
+}
+
+.step-logos figure figcaption {
+    position: absolute;
+    top: 20px;
+    width: 80%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    display: none
+}
+
+.step-logos figure figcaption label {
+    color: #fff;
+    margin: 0 0 5px
+}
+
+.step-logos figure figcaption textarea {
+    resize: none;
+    height: 100px;
+    border-radius: 3px
+}
+
+.step-logos figure figcaption .btn {
+    margin: 14px 0 0;
+    font-size: 14px;
+    padding: 6px 40px
+}
+
+.step-logos input[type=checkbox] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer
+}
+
+.color-pick {
+    clear: both;
+    margin: 30px 0
+}
+
+.color-pick ul li img {
+    width: 100%
+}
+
+.color-pick ul li {
+    /* width: 170px; */
+    border-radius: 50%;
+    /* display: inline-block; */
+    cursor: pointer;
+    border: 1px solid #ccc;
+    /* margin-right: 7px; */
+    border: none!important;
+    position: relative;
+    transition: .5s all;
+    /* margin: 0 13px 20px; */
+}
+
+.color-pick ul li.transparent:after {
+    content: "";
+    background: #ababab;
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(45deg)
+}
+
+.color-pick li input[type=checkbox] {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    display: block
+}
+
+.color-pick h4 {
+    margin: 0 20px 15px;
+    text-transform: uppercase;
+    color: #120f62;
+    font-weight: 700
+}
+
+.step-logos figure.selected {
+    transform: scale(1.1);
+    margin-bottom: 30px
+}
+
+.color-pick ul li.selected {
+    transform: scale(1.1);
+    margin-bottom: 30px
+}
+
+.step2 .form-group{
+    text-align:left;
+}
+
+.step2 .form-group label:before{
+    display:none;
+    content:'';
+}
+
+.step2 img {
+    max-width: 100%;
+}
+
+
+#FileInput {
+    display: none
+}
+
+.logo-cat h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 30px;
+    display: block;
+    z-index: 2;
+    color: #0a0a0a;
+    padding: 10px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    color: #291766;
+    font-weight: 700
+}
+
+.logo-cat h5 {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img.stepimg {
+    max-width: 370px;
+    margin: 0 auto;
+    display: block
+}
+
+span.filepond--label-action {
+    position: relative;
+    top: -2px
+}
+
+.form-group.radiocheck>div {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    background: #e8e8e8;
+    padding: 9px;
+    border: 1px solid #ccc;
+    box-shadow: #fff 0 0 0 2px
+}
+
+.form-group.radiocheck {
+    position: relative
+}
+
+.form-group.radiocheck>div label:before {
+    background: #ccc;
+    box-shadow: inset 0 0 0 4px #fff
+}
+
+.form-group.radiocheck>div input {
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 60px
+}
+
+.form-group.radiocheck>div label:before {
+    content: "";
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center
+}
+
+.form-group.radiocheck>div input:checked+.form-group.radiocheck>div label:before {
+    background: red
+}
+
+.form-group.radiocheck>div .radio-custom-label:checked+label:before {
+    background: #ff4754
+}
+
+.color-pick {
+    clear: both;
+    margin: 30px 0
+}
+
+.color-pick ul li img {
+    width: 100%
+}
+
+.color-pick ul li {
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border: none!important;
+    transition: .5s all;
+    margin-bottom: 20px;
+}
+
+.color-pick ul li.transparent:after {
+    content: "";
+    background: #ababab;
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(45deg)
+}
+
+.color-pick li input[type=checkbox] {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    display: block
+}
+
+.color-pick h4 {
+    margin: 0 20px 15px;
+    text-transform: uppercase;
+    color: #120f62;
+    font-weight: 700
+}
+
+.step-logos figure.selected h5 {
+    color: #291766;
+}
+
+.logo-cat {
+    margin-top: 20px
+}
+
+.color-pick ul li h5 {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section.step-web-2 .form-wrapper h2 {
+    font-size: 25px
+}
+
+.submit-wrap button {
+    background: var(--red);
+    width: 120px;
+    height: 45px;
+    color: var(--white) !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Options -Indexes
+
+RewriteEngine On 
+
+# Redirect /page.php to /page 
+RewriteCond %{REQUEST_FILENAME}.php -f 
+RewriteRule ^([^\.]+)/?$ $1.php [L]
